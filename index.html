@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>American Canary | Home</title>
+	<meta charset="UTF-8" />
+	​<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:wght@300;400;700&family=Roboto:ital,wght@0,400;0,500;1,100&display=swap" rel="stylesheet">
+	
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	 <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+</head>
+
+
+<!-- COMMENT HERE -->
+<body>
+
+
+
+
+	<header>
+		
+		<img src="cropped-americanCanaryLogo.jpg" 
+	alt="alt text for the image if it cannot load and text to be read by the screen reader - important to have a full description of image -- Left hand text reading American Canary engage your voice with an image on the right of the organization logo. Logo is a yellow bird icon shaped like a canary that has a cutout to look like a whitsle" 
+	title="test that appears when you hover can help with SEO" height="auto"
+	 />
+		<h1 class="hide">American Canary</h1>
+
+		<nav class="topnav" id="myTopnav">	
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="mediaLiteracy.html">MEDIA LITERACY</a></li>
+				<li><a href="#">MINDFULNESS</a></li>
+				<li><a href="#">DEMOCRACY</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SUBSCRIBE</a></li>
+				<li><a href="#">INSPIRATION</a></li>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+			</ul>
+			<hr class="mobileHide"/>
+		</nav>
+	</header>
+	
+	<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+	
+	<span style="font-size:30px;cursor:pointer" class="desktopHide"onclick="openNav()">&#9776; open</span>
+	
+	
+	<section id="popUpDemo">
+		<img id="myImg" src="images/img_snow_wide.jpg" alt="Snow" style="width:100%;height:auto;">
+
+<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	<section id="middleThreeColumns">
+		<div class="blackCardBox" id="firstBoxImage">
+			<h4>media literacy</h4>
+			<button type="button" onclick="alert('Hello world!')" class="button">Click Me!</button>
+		</div><!-- END of BLACKCARDBOX -->
+		
+		<div class="blackCardBox" id="secondBoxImage">
+			<h4>mindfulness</h4>
+		</div><!-- END of BLACKCARDBOX -->
+		
+		<div class="blackCardBox" id="thirdBoxImage">
+			<h4>democracy</h4>
+		</div><!-- END of BLACKCARDBOX -->
+	</section><!-- END of MIDDLETHREECOL -->
+	
+	
+	
+	
+	
+	
+	<section id="typeRules">
+		<h2>sample header two</h2>
+		<h3>sample header three</h3>
+		<h4>sample header four</h4>
+		<h5>sample header five</h5>
+		<h6>sample header six</h6>
+		<p>this is a paragraph <a href="#" target="_blank">this is a paragraph</a> this is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraphthis is a paragraph</p>
+	</section><!-- END of TYPERULES -->
+	
+	
+	
+	
+	
+	
+	<section id="imageSliderDemo">
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 4</div>
+			  <img src="images/img_nature_wide.jpg" style="width:100%" alt="Wide image of mountains with sun coming over hills and fog, to left of image is a cliff side dappled with trees.">
+			  <div class="text">Caption Text</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 4</div>
+			  <img src="images/img_snow_wide.jpg" style="width:100%" alt="write awesome alt tags as if you were explaining the scene to a blind person that you love">
+			  <div class="text">Caption Two</div>
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 4</div>
+			  <img src="images/img_mountains_wide.jpg" style="width:100%" alt="write awesome alt tags as if you were explaining the scene to a blind person that you love">
+			  <div class="text">Caption Three</div>
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/img_snow_wide.jpg" style="width:100%" alt="write awesome alt tags as if you were explaining the scene to a blind person that you love">
+				<div class="text">Caption Four</div>
+			  </div>
+			
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+			
+			</div>
+			<br>
+			
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  <span class="dot" onclick="currentSlide(4)"></span> 
+			</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	<section id="listTableForm" class="center">
+		write code for definition list, table and form according to assignment sheet
+	</section><!-- END of LISTTABLEFORM -->
+	
+	
+	<div class="boxDemo">
+		<h3 class="black">text for box</h3>
+		<button class="button">button text</button>
+		<a href="https://www.plattsburgh.edu" target="_blank" class="button">button text</a>
+	</div>
+	
+		<div class="boxDemo">
+		<h3 class="black">text for box</h3>
+		<button class="button">button text</button>
+		<a href="https://www.plattsburgh.edu" target="_blank" class="button">button text</a>
+	</div>
+	
+		<div class="boxDemo">
+		<h3 class="black">text for box</h3>
+		<button class="button">button text</button>
+		<a href="https://www.plattsburgh.edu" target="_blank" class="button">button text</a>
+	</div>
+	
+		<div class="boxDemo">
+		<h3 class="black">text for box</h3>
+		<button class="button">button text</button>
+		<a href="https://www.plattsburgh.edu" target="_blank" class="button">button text</a>
+	</div>
+	<div id="myContainer">
+	
+	</div>
+<script>
+/*
+ * @name Simple Shapes
+ * @description This examples includes a circle, square, triangle, and a flower.
+ */
+function setup() {
+  // Create the canvas
+  let myCanvas = createCanvas(720, 400);
+   myCanvas.parent("myContainer");
+  background(200);
+
+  // Set colors
+  fill(204, 101, 192, 127);
+  stroke(127, 63, 120);
+
+  // A rectangle
+  rect(40, 120, 120, 40);
+  // An ellipse
+  ellipse(240, 240, 80, 80);
+  // A triangle
+  triangle(300, 100, 320, 100, 310, 80);
+
+  // A design for a simple flower
+  translate(580, 200);
+  noStroke();
+  for (let i = 0; i < 10; i ++) {
+    ellipse(0, 30, 20, 80);
+    rotate(PI/5);
+  }
+}
+</script>
+	
+	
+	<footer class="center">
+		<h3>CONTACT</h3>
+	</footer>
+	<!--
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		} 
+		</script>-->
+
+		<script>
+			let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+		</script>
+
+<script>
+	// Get the modal
+	var modal = document.getElementById("myModal");
+	
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var img = document.getElementById("myImg");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+	  modal.style.display = "block";
+	  modalImg.src = this.src;
+	  captionText.innerHTML = this.alt;
+	}
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	  modal.style.display = "none";
+	}
+	</script>
+	
+	<script>
+		function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	</script>
+	
+	<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+
+</html>
